@@ -26,3 +26,35 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+.person-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+.person-image {
+      flex-basis: 25%;
+      max-width: 25%;
+      height: auto;
+      margin-right: 20px;
+    }
+
+.person-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.person-info {
+      flex-basis: 75%;
+      max-width: 75%;
+    }
+
+.caption {
+      color: #fff;
+      padding: 5px;
+      font-size: 16px;
+      text-align: center;
+    }
+
